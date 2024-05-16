@@ -41,6 +41,9 @@ void init_constants()
   set_js_variable("FT_FACE_FLAG_COLOR",            FT_FACE_FLAG_COLOR);
 
   set_js_variable("FT_PIXEL_MODE_MONO",            FT_PIXEL_MODE_MONO);
+  set_js_variable("FT_PIXEL_MODE_GRAY",            FT_PIXEL_MODE_GRAY);
+  set_js_variable("FT_PIXEL_MODE_GRAY2",           FT_PIXEL_MODE_GRAY2);
+  set_js_variable("FT_PIXEL_MODE_GRAY4",           FT_PIXEL_MODE_GRAY4);
   set_js_variable("FT_PIXEL_MODE_BGRA",            FT_PIXEL_MODE_BGRA);
 
   set_js_variable("OFFSET_FACE_GLYPH",             offsetof(FT_FaceRec, glyph));
